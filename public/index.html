@@ -5100,6 +5100,9 @@ html,body{background:#0F172A !important;}
 @media(max-width:780px){.block-features-alt__media .fa-illust{max-width:340px;margin:14px auto 0;}}
 
 @media(max-width:480px){[class*="--skin-minimal"] .block-features-alt__item-title{font-size:1.55rem !important;line-height:1.15 !important;word-break:normal !important;overflow-wrap:break-word !important;hyphens:none !important;}}
+
+[class*="--skin-minimal"].block-map-location .block-map-location__map{position:relative;overflow:hidden;border-radius:16px;border:1px solid rgba(255,255,255,.08);}
+.block-map-location__frame{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;filter:grayscale(.15) contrast(.95);}
 </style>
 </head>
 <body>
@@ -5445,13 +5448,7 @@ html,body{background:#0F172A !important;}
  <p class="block-map-location__subtitle">Свяжитесь с нами удобным способом</p>
  <div class="block-map-location__layout">
  <div class="block-map-location__map">
- 
- 
- <div class="block-map-location__pin" aria-hidden="true">
- <span class="block-map-location__pin-dot"></span>
- <span class="block-map-location__pin-ring"></span>
- </div>
- 
+ <iframe class="block-map-location__frame" src="https://yandex.ru/map-widget/v1/?ll=37.537270%2C55.749450&z=16&pt=37.537270%2C55.749450%2Cpm2rdm" width="100%" height="100%" frameborder="0" allowfullscreen="true" loading="lazy" title="Карта офиса — Москва-Сити, башня «Федерация»"></iframe>
  </div>
  <aside class="block-map-location__info">
  <div class="block-map-location__row block-map-location__row--address">
