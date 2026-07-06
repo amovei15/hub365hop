@@ -5062,6 +5062,17 @@ border-color: color-mix(in srgb, var(--color-brand) 22%, var(--color-border, #e5
 [class*="--skin-minimal"] [class*="__badge"]{background:#6366F1 !important;color:#fff !important;border:1px solid #6366F1 !important;}
 
 [class^="block-pricing-"][class*="--skin-minimal"] [class*="__badge"]{background:#6366F1 !important;color:#fff !important;border:1px solid #6366F1 !important;border-radius:999px !important;}
+
+/* softer: rounder corners + Inter + relaxed heading tracking */
+[class*="--skin-minimal"]{
+  --mn-radius:14px;
+  --mn-font-sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+}
+[class*="--skin-minimal"] h1,[class*="--skin-minimal"] h2,[class*="--skin-minimal"] h3,[class*="--skin-minimal"] h4{letter-spacing:-0.012em !important;}
+[class*="--skin-minimal"] .dl-btn,[class*="--skin-minimal"] .dl-btn-primary,[class*="--skin-minimal"] .dl-btn-secondary,[class*="--skin-minimal"] .dl-btn-ghost{border-radius:12px !important;}
+[class^="block-pricing-"][class*="--skin-minimal"] [class*="__tier"]{border-radius:18px !important;}
+[class*="--skin-minimal"] [class*="__card"],[class*="--skin-minimal"] [class*="__item"],[class*="--skin-minimal"] input,[class*="--skin-minimal"] textarea,[class*="--skin-minimal"] select{border-radius:14px !important;}
+[class*="--skin-minimal"] [class*="__badge"]{font-family:"Inter",system-ui,sans-serif !important;letter-spacing:.04em !important;text-transform:uppercase;}
 </style>
 </head>
 <body>
