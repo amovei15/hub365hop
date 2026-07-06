@@ -5093,6 +5093,13 @@ border-color: color-mix(in srgb, var(--color-brand) 22%, var(--color-border, #e5
 /* unify base background to navy (body root var was purple #151022) */
 html,body{background:#0F172A !important;}
 :root{--color-bg:#0F172A;--color-bg-rgb:15,23,42;}
+
+/* fill empty feature media slots with themed illustrations */
+[class*="--skin-minimal"] .block-features-alt__media{display:flex;align-items:center;justify-content:center;padding:0.5rem;min-height:auto;}
+.block-features-alt__media .fa-illust{width:100%;max-width:400px;height:auto;display:block;border-radius:22px;box-shadow:0 20px 50px -24px rgba(99,102,241,.55);}
+@media(max-width:780px){.block-features-alt__media .fa-illust{max-width:340px;margin:14px auto 0;}}
+
+@media(max-width:480px){[class*="--skin-minimal"] .block-features-alt__item-title{font-size:1.55rem !important;line-height:1.15 !important;word-break:normal !important;overflow-wrap:break-word !important;hyphens:none !important;}}
 </style>
 </head>
 <body>
@@ -5211,9 +5218,7 @@ html,body{background:#0F172A !important;}
  <li>Защита от глубокой инспекции пакетов</li><li>Минимальные задержки соединения</li><li>Автоматическое обновление конфигураций</li>
  </ul>
  </div>
- <div class="block-features-alt__media">
- 
- </div>
+ <div class="block-features-alt__media"><svg viewBox="0 0 420 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="fa-illust" role="img" aria-label="Защищённый протокол VLESS Reality"><defs><linearGradient id="fa1grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366F1"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient><radialGradient id="fa1glow" cx="50%" cy="40%" r="55%"><stop offset="0" stop-color="#6366F1" stop-opacity=".22"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient></defs><rect x="1" y="1" width="418" height="298" rx="22" fill="#131B2E" stroke="rgba(255,255,255,.06)"/><rect x="1" y="1" width="418" height="298" rx="22" fill="url(#fa1glow)"/><g stroke="url(#fa1grad)" stroke-width="2" opacity=".55" stroke-linecap="round"><path d="M50 96 H140"/><path d="M50 132 H112"/><path d="M280 176 H370"/><path d="M308 210 H370"/></g><g fill="#2DD4BF"><circle cx="50" cy="96" r="4.5"/><circle cx="50" cy="132" r="4.5"/></g><g fill="#818CF8"><circle cx="370" cy="176" r="4.5"/><circle cx="370" cy="210" r="4.5"/></g><path d="M210 62 L266 84 V142 C266 186 243 214 210 232 C177 214 154 186 154 142 V84 Z" fill="#0F172A" stroke="url(#fa1grad)" stroke-width="3"/><path d="M188 150 l16 16 l30 -36" stroke="#2DD4BF" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
  </div><div class="block-features-alt__row">
  <div class="block-features-alt__content">
  
@@ -5223,9 +5228,7 @@ html,body{background:#0F172A !important;}
  <li>Мгновенная выдача профилей</li><li>Автопродление подписки</li><li>Техническая поддержка 24/7</li>
  </ul>
  </div>
- <div class="block-features-alt__media">
- 
- </div>
+ <div class="block-features-alt__media"><svg viewBox="0 0 420 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="fa-illust" role="img" aria-label="Управление через Telegram-бота"><defs><linearGradient id="fa2grad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6366F1"/><stop offset="1" stop-color="#818CF8"/></linearGradient><radialGradient id="fa2glow" cx="50%" cy="40%" r="55%"><stop offset="0" stop-color="#2DD4BF" stop-opacity=".16"/><stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/></radialGradient></defs><rect x="1" y="1" width="418" height="298" rx="22" fill="#131B2E" stroke="rgba(255,255,255,.06)"/><rect x="1" y="1" width="418" height="298" rx="22" fill="url(#fa2glow)"/><rect x="126" y="34" width="168" height="232" rx="24" fill="#0F172A" stroke="rgba(255,255,255,.09)"/><circle cx="158" cy="66" r="13" fill="url(#fa2grad)"/><path d="M151 66 l14 -5 -5 14 -3 -6 z" fill="#fff"/><rect x="178" y="60" width="66" height="7" rx="3.5" fill="rgba(255,255,255,.28)"/><rect x="178" y="73" width="42" height="6" rx="3" fill="rgba(255,255,255,.12)"/><rect x="146" y="104" width="118" height="42" rx="13" fill="#1E293B"/><rect x="160" y="116" width="72" height="6" rx="3" fill="rgba(255,255,255,.30)"/><rect x="160" y="128" width="52" height="6" rx="3" fill="rgba(255,255,255,.16)"/><rect x="152" y="160" width="118" height="52" rx="13" fill="url(#fa2grad)"/><path d="M170 186 a7 7 0 1 1 14 0 v4 h-14 z" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M172 182 a5 5 0 0 1 10 0" fill="none" stroke="#fff" stroke-width="2.4"/><rect x="192" y="178" width="62" height="6" rx="3" fill="rgba(255,255,255,.9)"/><rect x="192" y="190" width="40" height="6" rx="3" fill="rgba(255,255,255,.6)"/><rect x="146" y="226" width="90" height="30" rx="15" fill="#1E293B"/><rect x="160" y="238" width="62" height="6" rx="3" fill="rgba(255,255,255,.18)"/></svg></div>
  </div>
  </div>
  </div>
