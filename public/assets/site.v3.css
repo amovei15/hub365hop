@@ -28,7 +28,7 @@ a:hover{color:var(--indigo-3)}
    iOS Safari backdrop-filter is unreliable and a transform on the sticky
    element itself breaks pinning — both made the mobile header bleed through
    and read as "not fixed". Solid bg is the network standard. */
-.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:var(--bg);
+.nav{position:sticky;top:0;left:0;right:0;z-index:1000;background:var(--bg);
   border-bottom:1px solid var(--line-soft)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;
   max-width:var(--max);margin:0 auto;padding:14px 24px;gap:20px}
@@ -364,6 +364,5 @@ a.fc-card:hover{color:inherit;transform:translateY(-1px)}
 .topic-body details[open]>summary::after{content:"−"}
 .topic-body .ans{padding:0 16px 14px;color:var(--ink-soft);font-size:13.8px;line-height:1.62}
 
-/* fixed header offset (iOS-reliable) */
-body{padding-top:67px}
+/* sticky header sits in normal flow — no body offset needed */
 html{scroll-padding-top:76px}
