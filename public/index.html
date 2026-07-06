@@ -5073,6 +5073,11 @@ border-color: color-mix(in srgb, var(--color-brand) 22%, var(--color-border, #e5
 [class^="block-pricing-"][class*="--skin-minimal"] [class*="__tier"]{border-radius:18px !important;}
 [class*="--skin-minimal"] [class*="__card"],[class*="--skin-minimal"] [class*="__item"],[class*="--skin-minimal"] input,[class*="--skin-minimal"] textarea,[class*="--skin-minimal"] select{border-radius:14px !important;}
 [class*="--skin-minimal"] [class*="__badge"]{font-family:"Inter",system-ui,sans-serif !important;letter-spacing:.04em !important;text-transform:uppercase;}
+
+/* featured tier: price solid white, period lighter */
+[class^="block-pricing-"][class*="--skin-minimal"] [class*="__tier--highlighted"] [class*="__price"],
+[class^="block-pricing-"][class*="--skin-minimal"] [class*="__tier"][class*="highlighted"] [class*="__price"]{color:#FFFFFF !important;background:none !important;-webkit-text-fill-color:#FFFFFF !important;-webkit-background-clip:border-box !important;background-clip:border-box !important;}
+[class^="block-pricing-"][class*="--skin-minimal"] [class*="__tier--highlighted"] [class*="__period"]{color:#CBD5E1 !important;}
 </style>
 </head>
 <body>
