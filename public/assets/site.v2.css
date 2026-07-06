@@ -1,12 +1,12 @@
 /* hubs4hub.com — Happ landing
    palette: violet-fuchsia on deep near-black */
 :root{
-  --bg:#07100e; --bg-soft:#0a1613; --bg-card:#0f1f1b; --bg-card-2:#132a24;
-  --line:#1d3831; --line-soft:#15291f; --line-strong:#2b4b41;
-  --ink:#eafbf6; --ink-soft:#cbe8df; --muted:#84a89d; --muted-2:#4f6b62;
-  --indigo:#14b8a6; --indigo-2:#2dd4bf; --indigo-3:#5eead4;
-  --violet:#06b6d4; --teal:#2dd4bf; --amber:#22d3ee; --ok:#34d399; --err:#f87171;
-  --glow:rgba(20,184,166,.24); --glow-soft:rgba(20,184,166,.09);
+  --bg:#0b0810; --bg-soft:#0f0b16; --bg-card:#151022; --bg-card-2:#1c1530;
+  --line:#2a2140; --line-soft:#1e1832; --line-strong:#3a2f54;
+  --ink:#f5f0fb; --ink-soft:#d8cde9; --muted:#9c8fb6; --muted-2:#5f5675;
+  --indigo:#a855f7; --indigo-2:#c084fc; --indigo-3:#ddb4fe;
+  --violet:#ec4899; --teal:#c084fc; --amber:#e879f9; --ok:#3ddc84; --err:#f87171;
+  --glow:rgba(168,85,247,.24); --glow-soft:rgba(168,85,247,.09);
   --sans:'Inter',-apple-system,'Segoe UI',system-ui,sans-serif;
   --mono:'JetBrains Mono',ui-monospace,Consolas,monospace;
   --display:'Sora','Inter',system-ui,sans-serif;
