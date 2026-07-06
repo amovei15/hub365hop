@@ -1240,7 +1240,7 @@ text-wrap: pretty;
 }
 .block-pricing-tiers3__grid {
 display: grid;
-grid-template-columns: repeat(3, minmax(0, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 gap: clamp(1rem, 1.75vw, 1.25rem);
 align-items: stretch;
 padding-top: 1.75rem;
@@ -5193,43 +5193,7 @@ border-color: color-mix(in srgb, var(--color-brand) 22%, var(--color-border, #e5
  <h2 class="dl-section-title block-pricing-tiers3__title">Тарифы и подписка</h2>
  <p class="block-pricing-tiers3__subtitle">Выбирайте подходящий вариант доступа к серверам</p>
  <div class="block-pricing-tiers3__grid">
- <article class="block-pricing-tiers3__tier block-pricing-tiers3__tier--highlighted">
- <div class="block-pricing-tiers3__badge">Популярный</div>
- <h3 class="block-pricing-tiers3__name">Бесплатно</h3>
- <p class="block-pricing-tiers3__desc">Клиент без серверов</p>
- <div class="block-pricing-tiers3__price-row">
- <span class="block-pricing-tiers3__price">0 ₽</span>
- <span class="block-pricing-tiers3__period">навсегда</span>
- </div>
- <ul class="block-pricing-tiers3__features">
- <li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Скачивание приложения</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Ручная настройка серверов</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Все платформы</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Обновления с GitHub</span></li>
- </ul>
- <a class="dl-btn dl-btn-primary block-pricing-tiers3__btn" href="#home">Скачать</a>
- </article><article class="block-pricing-tiers3__tier block-pricing-tiers3__tier--highlighted">
- <div class="block-pricing-tiers3__badge">Популярный</div>
- <h3 class="block-pricing-tiers3__name">Happ Plus</h3>
- <p class="block-pricing-tiers3__desc">Полный доступ к инфраструктуре</p>
- <div class="block-pricing-tiers3__price-row">
- <span class="block-pricing-tiers3__price">от 299 ₽</span>
- <span class="block-pricing-tiers3__period">в месяц</span>
- </div>
- <ul class="block-pricing-tiers3__features">
- <li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Безлимитный трафик</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>6 локаций серверов</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>До 3 устройств</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Telegram-бот для управления</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Приоритетная поддержка</span></li>
- </ul>
- <a class="dl-btn dl-btn-primary block-pricing-tiers3__btn" href="#contacts">Оформить подписку</a>
- </article><article class="block-pricing-tiers3__tier block-pricing-tiers3__tier--highlighted">
- <div class="block-pricing-tiers3__badge">Популярный</div>
- <h3 class="block-pricing-tiers3__name">Пробный период</h3>
- <p class="block-pricing-tiers3__desc">Тест-драйв перед покупкой</p>
- <div class="block-pricing-tiers3__price-row">
- <span class="block-pricing-tiers3__price">0 ₽</span>
- <span class="block-pricing-tiers3__period">3 дня</span>
- </div>
- <ul class="block-pricing-tiers3__features">
- <li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Все функции Happ Plus</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Полный доступ к серверам</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Без ограничений трафика</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Автопереход на платную версию</span></li>
- </ul>
- <a class="dl-btn dl-btn-primary block-pricing-tiers3__btn" href="#contacts">Активировать</a>
- </article>
+ <article class="block-pricing-tiers3__tier"><h3 class="block-pricing-tiers3__name">Happ Plus · 1 месяц</h3><p class="block-pricing-tiers3__desc">Стартовый ключ для happ</p><div class="block-pricing-tiers3__price-row"><span class="block-pricing-tiers3__price">249 ₽</span><span class="block-pricing-tiers3__period">в месяц</span></div><ul class="block-pricing-tiers3__features"><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>1 профиль, до 3 устройств — happ plus на пк, андроид и айфон</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>6 серверов: Европа и США, безлимит трафика</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Белые списки хапп и поддержка включены</span></li></ul><a class="dl-btn dl-btn-primary block-pricing-tiers3__btn" href="https://lk.chekdns.click/" target="_blank" rel="noopener">Купить подписку</a></article><article class="block-pricing-tiers3__tier block-pricing-tiers3__tier--highlighted"><div class="block-pricing-tiers3__badge">Выгодный</div><h3 class="block-pricing-tiers3__name">Happ Plus · 3 месяца</h3><p class="block-pricing-tiers3__desc">Ходовой · ≈200 ₽/мес</p><div class="block-pricing-tiers3__price-row"><span class="block-pricing-tiers3__price">599 ₽</span><span class="block-pricing-tiers3__period">3 месяца</span></div><ul class="block-pricing-tiers3__features"><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Тот же ключ для happ plus, дешевле за месяц</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>6 серверов (Европа + США), безлимит трафика</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Белые списки и поддержка — подписка happ на квартал</span></li></ul><a class="dl-btn dl-btn-primary block-pricing-tiers3__btn" href="https://lk.chekdns.click/" target="_blank" rel="noopener">Купить подписку</a></article><article class="block-pricing-tiers3__tier"><h3 class="block-pricing-tiers3__name">Happ Plus · 6 месяцев</h3><p class="block-pricing-tiers3__desc">Выгодный · ≈182 ₽/мес</p><div class="block-pricing-tiers3__price-row"><span class="block-pricing-tiers3__price">1090 ₽</span><span class="block-pricing-tiers3__period">6 месяцев</span></div><ul class="block-pricing-tiers3__features"><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Happ купить ключ на полгода — реже продлевать</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>6 серверов, безлимит трафика, 3 устройства</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Белые списки хапп и приоритетная поддержка</span></li></ul><a class="dl-btn dl-btn-primary block-pricing-tiers3__btn" href="https://lk.chekdns.click/" target="_blank" rel="noopener">Купить подписку</a></article><article class="block-pricing-tiers3__tier"><h3 class="block-pricing-tiers3__name">Happ Plus · 1 год</h3><p class="block-pricing-tiers3__desc">Максимум экономии · ≈157 ₽/мес</p><div class="block-pricing-tiers3__price-row"><span class="block-pricing-tiers3__price">1890 ₽</span><span class="block-pricing-tiers3__period">год</span></div><ul class="block-pricing-tiers3__features"><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Хапп плюс ключ на год — платите один раз</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>6 серверов (Европа + США), безлимит трафика</span></li><li><span class="block-pricing-tiers3__check" aria-hidden="true"></span><span>Белые списки, 3 устройства, поддержка весь срок</span></li></ul><a class="dl-btn dl-btn-primary block-pricing-tiers3__btn" href="https://lk.chekdns.click/" target="_blank" rel="noopener">Купить подписку</a></article>
  </div>
  </div>
 </section>
